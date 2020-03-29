@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Meow Plaza</title>
+
+  <!--- Googlefonts link -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
+  <!--- Bootstrap link -->
+  <link rel="stylesheet" type="text/css"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <!--- Font awesome link (icons) -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+</head>
+
+<body>
+
+   <!------------ Navbar at the top. Navbar collapse feature ------------>
+   <nav class="navbar navbar-default">
+    <div class="container">
+
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+          data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Meow Plaza</a>
+      </div>
+
+      <!------------ Collect the nav links and buttons ------------>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="">Home</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Contact</a></li>
+          </li>
+        </ul>
+
+        <!------------ A couple of links on the right side of the navbar ------------>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">Sign up <i class="fas fa-user-plus"></i></i></a></li>
+          <li><a href="#">Login <i class="fas fa-user"></i></a></li>
+        </ul>
+      </div>
+    </div>  <!------------End of the first container div ------------>
+  </nav>
+
+  <!------------A brand name in the center ------------>
+  <div class="container">
+    <div class="row">
+      <div class="cln-lg-12">
+        <div id="content">
+          <h1>Meow Plaza</h1>
+          <h3>The most luxurious hotel for pets in Europe!</h3>
+          <hr>
+          <button class="btn btn-default btn-lg"> <i class="fas fa-paw"></i> Get started!</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!------------Adding a jQuery and JS links so that collapse navbar menu on the right works when the screen is small and extra small ---------->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>

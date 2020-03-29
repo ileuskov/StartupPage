@@ -1,0 +1,38 @@
+/* Adding and centering the background picture*/
+body{
+	background: url(https://images.unsplash.com/photo-1532951779377-1080f5c62ab7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
+	background-size: cover;
+	background-position: center;
+	font-family: Lato;
+}
+
+/* Centering the brand name div. Adding a little shadow to the text so it looks nicer*/
+#content{
+	text-align: center;
+	padding-top: 25%;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+/* Making sure that the background picture covers the whole page as one image*/
+html{
+	height: 100%;
+}
+
+h1, h3{
+	color: black;
+}
+
+h1{
+	font-weight: 700;
+	font-size: 5em;
+}
+
+/* Styling the hr element so it looks line a nice underline for the brand name*/
+hr{
+	background-color: black;
+	width: 400px;
+	height: 1px;
+	border: none;
+}
